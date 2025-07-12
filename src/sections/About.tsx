@@ -6,6 +6,9 @@ import Image from "next/image";
 import JavascriptIcon from "@/assets/icons/square-js.svg";
 import HTMLIcon from "@/assets/icons/html5.svg";
 import CssIcon from "@/assets/icons/css3.svg";
+import C from "@/assets/icons/c.svg";
+import Cpp from "@/assets/icons/cpp.svg";
+import Python from "@/assets/icons/python.svg";
 import ReactIcon from "@/assets/icons/react.svg";
 import ChromeIcon from "@/assets/icons/chrome.svg";
 import GithubIcon from "@/assets/icons/github.svg";
@@ -19,15 +22,15 @@ import { useRef } from "react";
 const toolboxItems = [
   {
     title: "Python",
-    iconType: JavascriptIcon,
+    iconType: Python,
   },
   {
     title: "C",
-    iconType: JavascriptIcon,
+    iconType: C,
   },
   {
     title: "C++",
-    iconType: JavascriptIcon,
+    iconType: Cpp,
   },
   {
     title: "Javascript",

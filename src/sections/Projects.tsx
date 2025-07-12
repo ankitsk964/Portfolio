@@ -1,6 +1,6 @@
-import CodeCaffeine from "@/assets/images/code-caffeine.png";
-import IPhone from "@/assets/images/iphone.png";
-import TaskmasterPro from "@/assets/images/taskmaster-pro.png";
+import face from "@/assets/images/face.png";
+import chatbot from "@/assets/images/chatbot.png";
+import geo from "@/assets/images/geo.jpg";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -13,36 +13,36 @@ const portfolioProjects = [
     year: "2025",
     title: "Realtime Attendance using Face Recognition",
     results: [
-      { title: "Empowered 500+ developers with code sharing" },
-      { title: "Increased user engagement by 60%" },
-      { title: "Enhanced platform performance" },
+      { title: "Built a real-time face recognition system to automate attendance, reducing manual errors and improving security." },
+      { title: "Replaced traditional ID-based verification with seamless facial authentication, streamlining access control." },
+      { title: "Improved classroom and lab efficiency by enabling automatic attendance logging with 95%+ accuracy." },
     ],
     link: "https://github.com/ankitsk964/face-recognition",
-    image: CodeCaffeine,
+    image: face,
   },
   {
-    company: "IPhone Frontend",
+    company: "AI Chatbot",
     year: "2024",
-    title: "Modern iOS-Themed Frontend",
+    title: "RAI-BUDDY – Chatbot",
     results: [
-      { title: "Implemented sleek UI inspired by iOS design" },
-      { title: "Enhanced loading speed by 40%" },
-      { title: "Seamless performance on all devices" },
+      { title: "Built an AI-powered chatbot for KMITL students, integrated with Line app for academic query resolution." },
+      { title: "Implemented secure student login and admin dashboard using Python (Flask), Langchain, and local LLMs." },
+      { title: "Deployed Llama2 via Ollama for offline NLP processing, ensuring fast and private conversational support." },
     ],
-    link: "https://i-phone-frontend.vercel.app",
-    image: IPhone,
+    link: "https://github.com/ankitsk964/Rai-Buddy",
+    image: chatbot,
   },
   {
-    company: "Taskmaster Pro",
-    year: "2025",
-    title: "Task Management and Automation Tool",
+    company: "Geolocation",
+    year: "2023",
+    title: "Smart Attendance Management using Geolocation",
     results: [
-      { title: "Automated 80% of task scheduling processes" },
-      { title: "Improved team productivity by 50%" },
-      { title: "Enhanced user experience with intuitive UI" },
+      { title: "Developed a GPS-based attendance system to verify student presence in real-time." },
+      { title: "IIntegrated secure web interface for students and faculty, improving usability and control." },
+      { title: "Minimized proxy attendance by using location validation through REST APIs and Python." },
     ],
-    link: "https://chromewebstore.google.com/detail/taskmaster-pro/dcejecjgkehdhgcaikfolligbikpifbm?hl=en&authuser=0",
-    image: TaskmasterPro,
+    link: "https://ankit-k.vercel.app",
+    image: geo,
   },
 ];
 
